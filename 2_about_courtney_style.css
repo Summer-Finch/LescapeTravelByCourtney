@@ -1,0 +1,96 @@
+@charset "utf-8";
+
+div {
+	border: none;
+}
+
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  border: none;
+  position: relative;
+  display: inline-block;
+  width:7%;
+  margin-right: 2%;
+  margin-top: 2%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 250%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10% 15%;
+  text-decoration: none;
+  font-family: Calibri Light;
+  font-weight: bolder;
+  font-size: 1.5vw;
+  text-align: center;
+  display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #bbdfde;
+	color: grey;}
+
+.dropbtn:hover{
+  opacity: 0.7;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+img#menu {
+	width: 100%;
+	height: auto;
+}
+
+img#aboutC {
+	width: 100%;
+	height: auto;
+}
+
+footer > a {
+	   float: right;
+}
+
+.fa {
+  padding: 2.5%;
+  font-size: 3vw;
+  width: 2.5%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #55B1AE;
+  color: white;
+}
+
+/* Twitter */
+.fa-instagram {
+  background: #55B1AE;
+  color: white;
+  margin-right: 2%;
+}

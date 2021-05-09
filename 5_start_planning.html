@@ -1,0 +1,68 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link href="5_start_planning_style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="grid">
+	<div>
+		<header>
+			<h1 id="title">Start Planning!</h1>
+			<div class="dropdown" style="float:right;">
+				<img id="menu" class="dropbtn" src="images\menu_icon.gif"/>
+			<div class="dropdown-content">
+				<a href="0_lescape_main.html">Homepage</a>
+				<a href="1_about_lescape.html">About L'escape Travel by Courtney</a>
+				<a href="2_about_courtney.html">Meet Courtney</a>
+				<a href="3_reviews.html">Reviews</a>
+				<a href="4_covid_19.html">Covid-19</a>
+			</div>
+		</header>
+	</div>
+	<div>
+		<img src="images\AdobeStock_320061630_editByFinch.jpeg" style="width: 100%; margin-bottom: 3%; 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);" />
+	</div>
+	<div>
+		<div id="howToBook">
+			<h3>How To Book</h3>
+				<p>If you are like most people, spending your hard-earned money one trip a year or every couple of years, it is hard to think of spending a large portion of money on a weeklong stay (or less), but I have never had a client come home and say, "that was a waste of money." Usually it is the opposite and they say, " I wish I would have upgraded my room or stayed longer." Travel is an investment and a memory you will forever cherish. I don't take that lightly and am honored to assist in planning your dream trip! 
+				</p>
+				<p>Fill out the contact form and from there, I offer free consultations, as well as most of my planning is at no cost to you!</p>
+		</div>
+		<img id="contact" src="images\contact_info_1.jpg" />
+	</div>
+	<div id="clientForm">
+		<form id="clientInfo" action="process.php" method="POST">
+			<label id="title">Contact Courtney</label><br>
+			<label for="firstBox">First and Last Name</label>
+			<label id="email" for="email">Contact Email</label><br>
+				<input name="nameClient" id="firstBox" type="text" required />
+				<input name="email" id="emailClient" type="text" class="rightCol" required /><br>
+			<label for="phone">Contact Phone Number</label>
+			<label id="many" for="howMany">How Many Travelers? </label><br>
+				<input name="phone" id="phoneNum" type="text" required />
+				<input name="howMany" id="travelers" type="text" class="rightCol" required /><br>
+			<label for="whereFrom">Where will you be leaving from?</label>
+			<label id="idea" for="whereTo">Any idea where you might like to travel?</label><br>
+				<input name="whereFrom" id="whereF" type="text" />
+				<input name="whereTo" id="whereT" type="text" class="rightCol" /><br>
+			<label for="medical">Any Medical Concerns?</label><br>
+				<textarea name="medical" id="med" type="text" /></textarea><br>
+			<label for="diet">Any Dietary Concerns?</label><br>
+				<textarea name="diet" id="dietID" type="text" /></textarea><br>
+			<label for="requests">Any Other Special Requests?</label><br>
+				<textarea name="requests" id="req" type="text" /></textarea><br><br>
+			<button id="submit" type="submit">Submit</button>
+	</div>
+	<div>
+			<footer>
+			<a href="https://www.instagram.com/lescapetravel/?hl=en" class="fa fa-instagram"></a>
+			<a href="https://www.facebook.com/lescapetravelbycourtney" class="fa fa-facebook"></a>
+		</footer>
+	</div>
+</body>
+</html>
