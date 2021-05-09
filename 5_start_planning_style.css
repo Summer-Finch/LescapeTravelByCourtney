@@ -152,6 +152,7 @@ label#idea{
 form#clientInfo > input {
 	width: 40%;
 	font-size: 2vw;
+	font-family: Calibri Light;
 	margin-bottom: 1%;
 }
 .leftCol {
@@ -163,7 +164,8 @@ margin-right: 20%;
 
 form#clientInfo > textarea {
 	width: 50%;
-    font-size: 2vw;
+  	font-size: 2vw;
+	font-family: Calibri Light;
 }
 
 button#submit {
@@ -176,7 +178,7 @@ button#submit {
 	cursor: pointer;
 	width: 15%;
 	text-align: center;
-    font-family: Calibri Light;
+    	font-family: Calibri Light;
 	margin-left: 3%;
 }	
 
