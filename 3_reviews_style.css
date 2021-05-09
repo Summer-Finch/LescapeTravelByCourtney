@@ -29,6 +29,11 @@
 	}
 	
 	.head { grid-column: 1 / span 2;}
+	
+.fb-post {
+	margin-left: 15%;
+	}
+
 }
 
 html {background: #bbdfde
