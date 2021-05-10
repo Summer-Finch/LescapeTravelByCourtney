@@ -3,6 +3,7 @@
    .grid {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+	  max-width: 1600px;
     }
 
 div {
@@ -121,10 +122,10 @@ form#clientInfo {
 		font-family: Calibri;
 		font-size: 2vw;
 		font-weight: bold;
-		padding: 2%;
-		margin-left: 6%;
 }
 
+form > label {
+	margin-left: 6%;}
 
 label#title {
 	width: 100%;
@@ -132,19 +133,19 @@ label#title {
 	text-align: center;
     font-family: Calibri Light;
 	font-weight: bolder ;
-	margin-left: 30%;
+	margin-left: 37%;
 }
 
 label#email{
-		margin-left: 26.5%;
+		margin-left: 28.3%;
 }
 
 label#many{
-		margin-left: 23.4%;
+		margin-left: 25.4%;
 }
 
 label#idea{
-		margin-left: 16%;
+		margin-left: 19%;
 }
 
 form#clientInfo > input {
@@ -152,6 +153,7 @@ form#clientInfo > input {
 	font-size: 2vw;
 	font-family: Calibri Light;
 	margin-bottom: 1%;
+	margin-left: 6%;
 }
 .leftCol {
 margin-right: 20%;	
@@ -162,8 +164,9 @@ margin-right: 20%;
 
 form#clientInfo > textarea {
 	width: 50%;
-  	font-size: 2vw;
+    font-size: 2vw;
 	font-family: Calibri Light;
+    margin-left: 6%;
 }
 
 button#submit {
@@ -176,8 +179,8 @@ button#submit {
 	cursor: pointer;
 	width: 15%;
 	text-align: center;
-    	font-family: Calibri Light;
-	margin-left: 3%;
+    font-family: Calibri Light;
+	margin-left: 9%;
 }	
 
 #submit:hover {
