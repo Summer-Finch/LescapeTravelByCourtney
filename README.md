@@ -1,3 +1,3 @@
 # LescapeTravelByCourtney
 
-Preview site at https://flamboyant-franklin-e371f7.netlify.app/index.html
+Preview site at https://itd210assignmentfinch.netlify.app/
